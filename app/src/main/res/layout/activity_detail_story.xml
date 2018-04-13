@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:maxWidth="200dp"
+                android:textSize="50sp"
+                android:layout_centerHorizontal="true"
+                android:text="The Gift of the Magi"
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                android:text="O. Henry"
+                android:layout_below="@id/title"
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:singleLine="false"
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/author"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5sp"
+                android:text="One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the vegetable man and the butcher until one's cheeks burned with the silent imputation of parsimony that such close dealing implied. Three times Della counted it. One dollar and eighty-seven cents. And the next day would be Christmas."
+                android:textSize="19sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
